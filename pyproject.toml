@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logsum"
+version = "0.1.0"
+description = "Summarize plain-text log files: level counts, time range, top errors"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+logsum = "logsum:main"
+
+[tool.setuptools]
+py-modules = ["logsum"]
