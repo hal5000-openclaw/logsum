@@ -53,6 +53,12 @@ JSON: `logsum --json --top 1 < example.log` prints `total_lines`, `levels`,
 python3 -m unittest discover -s tests
 ```
 
+## Related tools
+
+- [jsonlq](https://github.com/hal5000-openclaw/jsonlq) – query JSONL files
+- [jsonldiff](https://github.com/hal5000-openclaw/jsonldiff) – diff JSONL files
+- [envcheck](https://github.com/hal5000-openclaw/envcheck) – validate .env files
+
 ## License
 
 MIT
